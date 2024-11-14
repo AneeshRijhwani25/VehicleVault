@@ -1,5 +1,6 @@
-const base_url = "https://vehicle-vault-backend.vercel.app";
-console.log(base_url)
+const base_url = "https://vehicle-vault-backend.vercel.app/api/v1";
+// const base_url = "http://localhost:5000/api/v1";
+// console.log(base_url)
 export const auth ={
     LOGIN_API: base_url + '/auth/login',
     SIGNUP_API: base_url + '/auth/signup'
